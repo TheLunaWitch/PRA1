@@ -35,25 +35,49 @@
             </div>
 
             <div class="grid2">
+                <p>Hier ziet u alle curio locaties in Breda</p>
+
                 <div class="slideshow-container">
 
                 <!-- Full-width images with number and caption text -->
-                <div class="mySlides">
-                <div class="numbertext">1 / 3</div>
-                <img src="img/img1.jpg" style="width:100%">
-                <div class="text">Caption Text</div>
+                <div class="mySlides fade">
+                <img src="img/img1.jpg" style="width:80%">
+                <div class="text">Biesdonkweg 31</div>
                 </div>
 
-                <div class="mySlides">
-                <div class="numbertext">2 / 3</div>
-                <img src="img/img2.jpg" style="width:100%">
-                <div class="text">Caption Two</div>
+                <div class="mySlides fade">
+                <img src="img/img2.jpg" style="width:80%">
+                <div class="text">Biesdonkweg 33</div>
                 </div>
 
-                <div class="mySlides">
-                <div class="numbertext">3 / 3</div>
-                <img src="img/img3.jpg" style="width:100%">
-                <div class="text">Caption Three</div>
+                <div class="mySlides fade">
+                <img src="img/img3.jpg" style="width:80%">
+                <div class="text">Frankenthalerstraat 15</div>
+                </div>
+
+                <div class="mySlides fade">
+                <img src="img/img4.jpg" style="width:80%">
+                <div class="text">Markendaalseweg 35</div>
+                </div>
+
+                <div class="mySlides fade">
+                <img src="img/img5.jpg" style="width:80%">
+                <div class="text">Terheijdenseweg 414</div>
+                </div>
+
+                <div class="mySlides fade">
+                <img src="img/img6.jpg" style="width:80%">
+                <div class="text">Terheijdenseweg 348</div>
+                </div>
+
+                <div class="mySlides fade">
+                <img src="img/img7.jpg" style="width:80%">
+                <div class="text">Terheijdenseweg 350</div>
+                </div>
+
+                <div class="mySlides fade">
+                <img src="img/img8.jpg" style="width:80%">
+                <div class="text">Wilhelminasingel 33</div>
                 </div>
 
                 <!-- Next and previous buttons -->
@@ -67,9 +91,65 @@
                 <span class="dot" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
                 <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+                <span class="dot" onclick="currentSlide(5)"></span>
+                <span class="dot" onclick="currentSlide(6)"></span>
+                <span class="dot" onclick="currentSlide(7)"></span>
+                <span class="dot" onclick="currentSlide(8)"></span>
                 </div>
+
+                <script>
+                    let slideIndex = 1;
+                    showSlides(slideIndex);
+
+                    function plusSlides(n) {
+                    showSlides(slideIndex += n);
+                    }
+
+                    function currentSlide(n) {
+                    showSlides(slideIndex = n);
+                    }
+
+                    function showSlides(n) {
+                    let i;
+                    let slides = document.getElementsByClassName("mySlides");
+                    let dots = document.getElementsByClassName("dot");
+                    if (n > slides.length) {slideIndex = 1}    
+                    if (n < 1) {slideIndex = slides.length}
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";  
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " active";
+                    }
+                </script>
+
+                <div class="weetjes">
+                    <div class="slaging">
+                        <p> De slaginsratio is: 95%</p>
+                    </div>
+
+                    <div class="moeilijk">
+                        <p>Het moeilijkste blok: Blok D</p>
+                    </div>
+
+                    <div class="docentenrating">
+                        <p>Docenten rating: 8.3</p>
+                    </div>
+
+                    <div class="leerlingrating">
+                        <p>Leerlingen rating: 7</p>
+                    </div>
+                </div> 
+
             </div>
         </div>
+           
+        <!-- Hier komen docenten foto's-->
+
     </main>
 </body>
 </html>
