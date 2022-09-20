@@ -147,9 +147,30 @@
 
             </div>
         </div>
-           
+    </main>       
         <!-- Hier komen docenten foto's-->
-
-    </main>
+        <div class="docenten">
+        <p>Hier is ons docenten team:</p>
+            <div class="scrollmenu">
+                <img src="img/docent1.jpg" style="width: 20%">
+                <img src="img/docent2.png" style="width: 20%">
+                <img src="img/docent3.jpg" style="width: 20%">
+                <img src="img/docent4.jpg" style="width: 20%">
+                <img src="img/docent5.png" style="width: 20%">
+                <img src="img/docent6.png" style="width: 20%">
+                <img src="img/docent7.png" style="width: 20%">
+                <img src="img/docent8.jpg" style="width: 20%">
+                <img src="img/docent9.jpg" style="width: 20%">
+                <img src="img/docent10.jfif" style="width: 20%">
+                <img src="img/docent11.png" style="width: 20%">
+                <img src="img/docent11.png" style="width: 20%">
+                <img src="img/docent11.png" style="width: 20%">
+                <img src="img/docent11.png" style="width: 20%">
+            </div>
+        </div>
 </body>
+<footer>
+    <p>Contact</p>
+    <p>infopunt@curio.nl</p>
+</footer>
 </html>
