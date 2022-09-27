@@ -17,18 +17,42 @@
             <h2>Alles wat je moet weten</h2>
                 <div class="info">
                     <div class="box1">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo labore alias molestiae corporis pariatur blanditiis ullam magnam quam cumque quae, beatae odio excepturi possimus ipsam obcaecati, aspernatur voluptates voluptatem. Eaque!
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptatibus maxime iusto ratione odit. Recusandae voluptas illo a nesciunt culpa asperiores distinctio, eligendi porro enim error fugiat vitae, obcaecati et!
-                        </p>
+                        <p>DE VAKKEN OP CURIO:
+                        <br><br>WEB development: Dit vak gaat over het maken van websites en webapplicaties. We beginnen simpel met de opmaaktalen HTML en CSS, in het 2e blok gaan we verder met PHP. Dat zijn de bouwstenen van een website.HTML en CSS is voor de opmaak van de site, dus de kleuren en hoe alles netjes staat.PHP is voor de functionaliteit van de website, voor het versturen en ontvangen van informatie.SQL is om informatie te versturen naar je database en op te halen uit je database.
+                        <br><br>
+                        NATIVE: Je leert applicaties te bouwen die draaien op een Windows-computer. In het 1e blok gaan we eerst werken we met de programmeertaal ‘Python’. Om die taal goed te oefenen, beginnen we met programmeren op een kleiner apparaat genaamd de Microbit. Daarna gaan we over naar Visual 
+                        Studio code. In het 2e blok gaan we over naar C#.Python is een programmeertaal die enorm veelzijdig is. Van simpele scripts van slechts een paar regel code, tot grote webapplicaties met databases, het aansturen van robots in fabrieken, software voor in auto’s, games, machine learning enzovoorts.C# (C-Sharp) is een sterk getypeerde objectgeoriënteerde programmeertaal. C# is open source, eenvoudig, modern, flexibel en veelzijdig.
+                        <br><br>
+                        PRAKTIJKWERK:
+                        Tijdens praktijkwerk werk je zelfstandig aan de praktijkopdrachten die opgeleverd zijn door jou werkgever(docenten), in ons praktijklokaal. De opdrachten kunnen bestaan uit websites maken dus met HTML, CSS en PHP, of je moet een webapplicatie maken dus dan werk je met python of C#.de praktijk opdracht worden voor in teams aan gewerkt, zoals in het bedrijfsleven. Omdat we werken in teams maken wij gebruik van ‘GitHub’.
+                        GitHub is een online platform waarmee makkelijker je code kan delen met je collega’s mensen en er zijn extra features.
+                        <br><br>
+                        PRAKTIJKONDERSTEUNING: Je krijgt coaching en ondersteuning bij de praktijkopdrachten. Ook is er les in modules die met het V-model te maken hebben. Meestal gaat dat niet over programmeren, maar juist over de andere kanten van ons vak. Zoals alles wat je voor het maken van je product zoals een briefing, en daaruit een planning maken de stand ups en het presenteren van je uiteindelijke product.
+                        <br><br>
+                        GENERIEKE VAKKEN: Nederlands, Engels en Rekenen zijn de 3 generieke vakken die je heb op school. Je gaat met Nederlands en Engels werken aan opdrachten in Malmberg en met rekenen in studiemeter, aan het einde als je alles af hebt wordt je aangemeld voor de examens. Voor Nederlands mag je een 5 halen maar dan moet je voor Engels wel een 6 of hoger scoren, voor rekenen moet je minimaal een voldoende halen om je diploma te krijgen.
+                        <br><br>
+                        ALGO: Algo staat voor ‘algoritme’ in dit vak leer je vooral de gedachten gang van het coderen, PHP wordt vooral gebruikt in deze les als voorbeeld.</p>
                     </div>
+
                     <div class="box2">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo labore alias molestiae corporis pariatur blanditiis ullam magnam quam cumque quae, beatae odio excepturi possimus ipsam obcaecati, aspernatur voluptates voluptatem. Eaque!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum aliquid nesciunt numquam velit ab debitis, blanditiis, natus porro in ad optio provident, eos deserunt et libero atque corporis tempore dicta?
+                    <p>Onze school is normaal 4 jaar lang. Als je dit traject volgt heb je 7 blokken waaronder een eindstage. We hebben ook een versneld traject, hier doe je 3 jaar over je slaat blok E over. Hier een overzicht van hoe dat eruit ziet.<br>
+                    <img src="img/overzicht.png">       
+                    <br>
+                    Wil je na je mbo-studie nog verder doorstuderen? Kijk dan is goed naar alle hbo-opleidingen die beschikbaar zijn in het ICT vak.
+                    Na je opleiding als je software developer kan je aan slag bij verschillende plekken, hier een paar voorbeelden><br><br>
+                    •	ICT- bedrijven<br>
+                    •	Development-bureau’s<br>
+                    •	Software development-bedrijven<br>
+                    •	Software consultancy-ondernemingen<br>
+
                     </p>
                     </div>
                     <div class="box3">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo labore alias molestiae corporis pariatur blanditiis ullam magnam quam cumque quae, beatae odio excepturi possimus ipsam obcaecati, aspernatur voluptates voluptatem. Eaque!
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit quae atque, laboriosam obcaecati labore illum debitis asperiores soluta sunt quibusdam, esse, officiis recusandae aperiam necessitatibus consequatur ipsa voluptate perferendis sapiente.
+                    <p>ROOSTERS:<br>
+                    Hier wat voorbeelden van roosters uit jaar 1
+                    <div class="rooster">
+                        <img src="img/rooster1.png">
+                    </div>
                     </p>
                     </div>
                 </div>
