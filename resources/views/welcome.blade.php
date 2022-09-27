@@ -169,6 +169,7 @@
                     </div>
                 </div> 
 
+                <p>In onze locatie</p>
                 <div class="slideshow-container2">
 
                     <!-- Full-width images with number and caption text -->
