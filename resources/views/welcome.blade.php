@@ -63,45 +63,45 @@
 
                 <div class="slideshow-container">
 
-                <!-- Full-width images with number and caption text -->
-                <div class="mySlides fade">
-                <img src="img/img1.jpg" style="width:80%">
-                <div class="text">Biesdonkweg 31</div>
-                </div>
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                    <img src="img/img1.jpg" style="width:80%">
+                    <div class="text">Biesdonkweg 31</div>
+                    </div>
 
-                <div class="mySlides fade">
-                <img src="img/img2.jpg" style="width:80%">
-                <div class="text">Biesdonkweg 33</div>
-                </div>
+                    <div class="mySlides fade">
+                    <img src="img/img2.jpg" style="width:80%">
+                    <div class="text">Biesdonkweg 33</div>
+                    </div>
 
-                <div class="mySlides fade">
-                <img src="img/img3.jpg" style="width:80%">
-                <div class="text">Frankenthalerstraat 15</div>
-                </div>
+                    <div class="mySlides fade">
+                    <img src="img/img3.jpg" style="width:80%">
+                    <div class="text">Frankenthalerstraat 15</div>
+                    </div>
 
-                <div class="mySlides fade">
-                <img src="img/img4.jpg" style="width:80%">
-                <div class="text">Markendaalseweg 35</div>
-                </div>
+                    <div class="mySlides fade">
+                    <img src="img/img4.jpg" style="width:80%">
+                    <div class="text">Markendaalseweg 35</div>
+                    </div>
 
-                <div class="mySlides fade">
-                <img src="img/img5.jpg" style="width:80%">
-                <div class="text">Terheijdenseweg 414</div>
-                </div>
+                    <div class="mySlides fade">
+                    <img src="img/img5.jpg" style="width:80%">
+                    <div class="text">Terheijdenseweg 414</div>
+                    </div>
 
-                <div class="mySlides fade">
-                <img src="img/img6.jpg" style="width:80%">
-                <div class="text">Terheijdenseweg 348</div>
-                </div>
+                    <div class="mySlides fade">
+                    <img src="img/img6.jpg" style="width:80%">
+                    <div class="text">Terheijdenseweg 348</div>
+                    </div>
 
-                <div class="mySlides fade">
-                <img src="img/img7.jpg" style="width:80%">
-                <div class="text">Terheijdenseweg 350</div>
-                </div>
+                    <div class="mySlides fade">
+                    <img src="img/img7.jpg" style="width:80%">
+                    <div class="text">Terheijdenseweg 350</div>
+                    </div>
 
-                <div class="mySlides fade">
-                <img src="img/img8.jpg" style="width:80%">
-                <div class="text">Wilhelminasingel 33</div>
+                    <div class="mySlides fade">
+                    <img src="img/img8.jpg" style="width:80%">
+                    <div class="text">Wilhelminasingel 33</div>
                 </div>
 
                 <!-- Next and previous buttons -->
@@ -169,6 +169,72 @@
                     </div>
                 </div> 
 
+                <div class="slideshow-container2">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides2 fade2">
+                    <img src="img/locatie6.jpeg" style="width:80%">
+                    <div class="text2"></div>
+                    </div>
+
+                    <div class="mySlides2 fade2">
+                    <img src="img/locatie2.jpeg" style="width:80%">
+                    <div class="text2"></div>
+                    </div>
+
+                    <div class="mySlides2 fade2">
+                    <img src="img/locatie3.jpeg" style="width:80%">
+                    <div class="text2"></div>
+                    </div>
+
+                    <div class="mySlides2 fade2">
+                    <img src="img/locatie4.jpeg" style="width:80%">
+                    <div class="text2"></div>
+
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev2" onclick="plusSlides2(-1)">&#10094;</a>
+                <a class="next2" onclick="plusSlides2(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                <span class="dot2" onclick="currentSlide2(1)"></span>
+                <span class="dot2" onclick="currentSlide2(2)"></span>
+                <span class="dot2" onclick="currentSlid2(3)"></span>
+                <span class="dot2" onclick="currentSlide2(4)"></span>
+                </div>
+
+                <script>
+                    let slideIndex2 = 1;
+                    showSlides2(slideIndex2);
+
+                    function plusSlides2(n) {
+                    showSlides2(slideIndex2 += n);
+                    }
+
+                    function currentSlide2(n) {
+                    showSlides2(slideIndex2 = n);
+                    }
+
+                    function showSlides2(n) {
+                    let i2;
+                    let slides2 = document.getElementsByClassName("mySlides2");
+                    let dots2 = document.getElementsByClassName("dot2");
+                    if (n > slides2.length) {slideIndex2 = 1}    
+                    if (n < 1) {slideIndex2 = slides2.length}
+                    for (i2 = 0; i2 < slides2.length; i2++) {
+                        slides2[i2].style.display = "none";  
+                    }
+                    for (i2 = 0; i2 < dots2.length; i2++) {
+                        dots2[i2].className = dots2[i2].className.replace(" active", "");
+                    }
+                    slides2[slideIndex2-1].style.display = "block";  
+                    dots2[slideIndex2-1].className += " active";
+                    }
+                </script>
             </div>
         </div>
     </main>       
